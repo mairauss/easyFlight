@@ -1,0 +1,210 @@
+
+/* Hintergrund der Seite*/
+html, body{
+  background: #ebf2ff;
+  background-image: url(css/clouds_texture2909.jpg);
+}
+
+/* Login Ablauf*/
+ input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #0080c0;
+    color: white;
+    padding: 14px 150px;
+    margin: -5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float:right;
+    cursor: pointer;
+    
+
+}
+input[type=submit] {
+    width: 100px;
+    background-color: #0080c0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    margin-top: 16px;
+    position: relative;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+ 
+/* Navigationbar Hinflug usw*/ 
+ul {
+    list-style-type: none;
+
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right:1px solid #0080c0;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #0080c0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #c0c0c0;
+}
+
+.active {
+    font-size: 20px;
+    font-weight: bold;
+}  
+
+/* Textfield startflughafen und zielflughafen */
+input[type=text2] {
+    width: 210px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/* Search Button */
+input[type=button] {
+    background-color: #0080c0;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1{
+	text-align: center;
+}
+
+#wrapper{
+	border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+footer{
+ clear:both;
+ width:100%;
+ height:50px;
+ text-align:center;
+ color:#4d4d4d;
+ font-size:14px;
+ padding-top:150px;
+} 

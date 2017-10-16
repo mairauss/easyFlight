@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+html, body{
+  background: #ebf2ff;
+  background-image: url(css/clouds_texture2909.jpg);
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+#backtohome {
+    width: 200px;
+    background-color: #0080c0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-top: 1px;
+    margin-right: 2 px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+#backtohome:hover {
+    background-color: #005e8a;
+}
+
+input[type=submit] {
+    width: auto;
+    background-color: #0080c0;
+    color: white;
+    padding: 14px 20px;
+    
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+	background-color: #005e8a;
+}
+
